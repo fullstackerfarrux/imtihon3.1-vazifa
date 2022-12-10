@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.page {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menu {
+  width: 250px;
+  height: 430px;
+  background-color: #17141d;
+  padding: 20px;
+  margin: 100px 50px;
+}
+.menu div {
+  display: flex;
+  justify-content: space-between;
+}
+.menu h1 {
+  text-align: center;
+  color: silver;
+  margin-bottom: 20px;
+}
+.menu p {
+  margin-bottom: 10px;
+  color: silver;
+  font-size: 20px;
+}
+.menu h2 {
+  color: silver;
+  text-align: center;
+}
+.menu .btn-cheese {
+  padding: 0 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #10d4d3;
+  border: none;
+}
+.menu .btn-cheese:hover {
+  background-color: blue;
+  color: white;
+}
+.menu .btn-meat {
+  padding: 0 17px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #10d4d3;
+  border: none;
+}
+.menu .btn-meat:hover {
+  background-color: blue;
+  color: white;
+}
+.menu .btn-onion {
+  padding: 0 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #10d4d3;
+  border: none;
+}
+.menu .btn-onion:hover {
+  background-color: blue;
+  color: white;
+}
+.menu .btn-salad {
+  padding: 0 14px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #10d4d3;
+  border: none;
+}
+.menu .btn-salad:hover {
+  background-color: blue;
+  color: white;
+}
+.menu .btn-tomato {
+  padding: 0 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #10d4d3;
+  border: none;
+}
+.menu .btn-tomato:hover {
+  background-color: blue;
+  color: white;
+}
+.menu .btn-pickle {
+  padding: 0 13px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #10d4d3;
+  border: none;
+}
+.menu .btn-pickle:hover {
+  background-color: blue;
+  color: white;
+}
+.menu .buyurtma {
+  padding: 5px 10px;
+  background-color: red;
+  color: wheat;
+  border: none;
+  margin: 0 auto;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.menu .buyurtma:hover {
+  background-color: yellow;
+  color: black;
+}
+.menu .buyurtmatext {
+  color: silver;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.burger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.burger .burger-top {
+  transform: translateY(50px);
+}
+.burger .ingradients {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=main.css.map */
